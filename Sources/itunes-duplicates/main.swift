@@ -37,5 +37,5 @@ for key in uniqueMediaItems.keys {
     continue
   }
 
-  print("  \(key) (\(items.count) found)")
+  print("  (\(items.count) found) \(key)")
 }
