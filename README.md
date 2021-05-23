@@ -1,3 +1,3 @@
-# Apple Scripts
+# Apple Tools
 
-Scripts that are useful for Apple platforms.
+Tools that are useful for Apple platforms.
