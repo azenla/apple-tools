@@ -10,13 +10,18 @@ let package = Package(
   products: [
     .executable(
       name: "itunes-duplicates",
-      targets: ["itunes-duplicates"]
-    ),
+      targets: ["itunes-duplicates"]),
+    .executable(
+      name: "orchid",
+      targets: ["orchid"]),
   ],
   dependencies: [],
   targets: [
     .target(
       name: "itunes-duplicates",
+      dependencies: []),
+    .target(
+      name: "orchid",
       dependencies: [])
   ]
 )
